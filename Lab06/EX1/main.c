@@ -4,7 +4,7 @@
 int main(void){
 	int n;
 	printf("Please, give a binary number:  ");
-	n = getinteger(5);
+	n = getinteger(10);
 	while (n != 1){
 		printf("%d\n", n);
 		isodd(n);
